@@ -1,0 +1,32 @@
+.search_bar {
+    height: 52px;
+    background-color: #713819;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search_tool {
+    height: 60%;
+    border-radius: 13px 0 0 13px;
+    box-shadow: none;
+    border: 0;
+    padding: 0px 16px;
+    color: #000;
+    background-color: #FFFFFF;
+}
+
+.btn_search {
+    height: 60%;
+    border-radius: 0 13px 13px 0;
+    padding: 0px 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.fa-search:before {
+    content: "\f002";
+}

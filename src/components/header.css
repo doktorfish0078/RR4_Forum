@@ -1,0 +1,52 @@
+.header {
+    height: 200px;
+    width: 100%;
+    background-image: url(https://rf4game.ru/wp-content/themes/rf4/img/RF4-forum_header-v1.jpg);
+    margin-bottom: -116px;
+    padding-top: 5px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu_header {
+    height: 84px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    height: 100%;
+    background: url(https://rf4game.ru/wp-content/themes/rf4/img/RF4_logo_s.png) no-repeat left center;
+    cursor: pointer;
+}
+
+.nav_menu_header_link_item {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.nav_menu_header_link_item_active {
+    box-shadow: 0px 4px rgba(187, 111, 111, 1);
+}
+
+.nav_menu_header_link_item:hover {
+    opacity: 0.7;
+}
+
+.authotorization_menu {
+    user-select: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.authotorization_menu:hover {
+    opacity: 0.7;
+}

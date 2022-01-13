@@ -1,0 +1,28 @@
+.inner_forum {
+    background-color: #FFFFFF;
+    min-height: 100%;
+}
+
+.forums {
+    padding: 15px 25px;
+}
+
+.page_title {
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    margin-bottom: 15px;
+}
+
+.thread {
+    border-bottom: 1px solid #a8a8ad8c;
+    margin-bottom: 20px;
+}
+
+.thread_type_title {
+    padding: 16px 20px;
+    background-color: #EBEDF0;
+    color: #829AB8;
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+}

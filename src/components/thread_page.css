@@ -1,0 +1,29 @@
+.inner_thread {
+    background-color: #FFFFFF;
+    min-height: 100%;
+}
+
+.topics {
+    padding: 15px 25px;
+}
+
+.thread_title {
+    margin-bottom: 15px;
+}
+
+.title_and_btn_create {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_create_new_topic {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    color: #F3FFFF;
+    border-radius: 10px;
+    background-color: rgb(62, 65, 72);
+    border: 0;
+    cursor: pointer;
+}
